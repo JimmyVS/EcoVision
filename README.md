@@ -8,6 +8,8 @@
 
 **EcoVision** is an innovative AI-powered web application that promotes sustainable living by analyzing everyday objects in images and offering personalized eco-friendly recommendations.
 
+![image](https://github.com/user-attachments/assets/ad1a9e32-624e-48d4-82c9-28dae23ee2c8)
+
 ---
 
 ## 📸 Live Demo
@@ -120,6 +122,8 @@ start open.bat
 2. Upload an image with everyday objects.
 3. Click Analyze Image.
 - Get eco-tips + impact score in real-time.
+
+![image](https://github.com/user-attachments/assets/b2a36731-aebb-477d-8466-d47ca742ab38)
 
 ---
 
