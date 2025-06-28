@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌱 EcoVision</h1>
+            <p>Discover eco-friendly tips for everyday objects through AI-powered image analysis</p>
+        </div>
+
+        <div class="main-card">
+            <div class="upload-section" id="uploadSection">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📷</div>
+                    <div class="upload-text">Drop your image here or click to browse</div>
+                    <div class="upload-subtext">Supports JPG, PNG, GIF up to 10MB</div>
+                    <input type="file" id="fileInput" class="file-input" accept="image/*">
+                </div>
+                <button class="btn" id="analyzeBtn" disabled>🔍 Analyze Image</button>
+            </div>
+
+            <div id="imagePreview"></div>
+
+            <div id="loadingSection" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analyzing your image and finding eco-friendly tips...</p>
+            </div>
+
+            <div id="resultsSection" class="results-section">
+                <div class="stats" id="statsSection" style="display: none;">
+                    <div class="stat-item">
+                        <span class="stat-number" id="objectCount">0</span>
+                        <span class="stat-label">Objects Detected</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="tipCount">0</span>
+                        <span class="stat-label">Eco Tips Available</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="impactScore">0</span>
+                        <span class="stat-label">Environmental Impact Score</span>
+                    </div>
+                </div>
+
+                <div class="results-grid">
+                    <div class="detected-objects">
+                        <div class="section-title">
+                            🔍 Detected Objects
+                        </div>
+                        <div id="objectsList"></div>
+                    </div>
+
+                    <div class="eco-tips">
+                        <div class="section-title">
+                            🌱 Eco-Friendly Tips
+                        </div>
+                        <div id="tipsList"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
