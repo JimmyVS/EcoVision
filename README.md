@@ -15,7 +15,7 @@
 
 ## 📸 Live Demo
 
-🌐 Visit the live website to test EcoVision: [Live Website](https://your-github-pages-url.com)
+🌐 Visit the live website to test EcoVision: [Live Website](ecovision-ai.netlify.app)
 
 ---
 ## 🚀 Project Overview
@@ -142,5 +142,6 @@ See `LICENSE` for more information.
 ## 🧠 Acknowledgements
 - Ultralytics YOLOv8
 - COCO Dataset
+- Netlify for live preview
 
 `Note: This repository is created to showcase the project for the Hackboro Hackathon 2025.`
