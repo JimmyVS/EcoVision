@@ -5,7 +5,7 @@
 ![Forks](https://img.shields.io/github/forks/JimmyVS/EcoVision)
 ![Stars](https://img.shields.io/github/stars/JimmyVS/EcoVision)
 ![Last Commit](https://img.shields.io/github/last-commit/JimmyVS/EcoVision)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/80a4efa9-26c0-40fd-8c3c-3e0b6206c2c0/deploy-status)](https://app.netlify.com/projects/ecovision-ai/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a03a2f8e-95a7-4d5e-8176-764089a36da8/deploy-status)](https://app.netlify.com/projects/ecovision-ai/deploys)
 
 **EcoVision** is an innovative AI-powered web application that promotes sustainable living by analyzing everyday objects in images and offering personalized eco-friendly recommendations.
 
