@@ -15,7 +15,7 @@
 
 ## 📸 Live Demo
 
-🌐 Visit the live website to test EcoVision: [Live Website](ecovision-ai.netlify.app)](https://ecovision-ai.netlify.app/)
+🌐 Visit the live website to test EcoVision: [Live Website](ecovision-ai.netlify.app)(https://ecovision-ai.netlify.app/)
 
 ---
 ## 🚀 Project Overview
